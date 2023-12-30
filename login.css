@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0ba55;
+}
+.barra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #242424;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.button_bar,
+.button_bar_login,
+.button_bar_contato {
+    font-family: 'Quicksand', sans-serif;
+    padding: 15px;
+    display: flex;
+    font-size: 20px;
+    color: #e9e8e5;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.button_bar:hover,
+.button_bar_login:hover,
+.button_bar_contato:hover {
+    background-color: #FDC830;
+    font-size: 20px;
+    color: rgb(36, 36, 36);
+    text-decoration: none;
+    transition: all 0.2s;
+    box-shadow: #f3c334 1px 1px 50px;
+    background-color: #f3c334;
+}
+
+.button_bar_login:hover {
+    box-shadow: #f3c334 1px 1px 50px;
+    background-color: #f3c334;
+}
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-content {
+    height: 70vh;
+    display: flex;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.left-section {
+    box-shadow: #292929 0px 1px 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: #f3c334;
+    padding: 40px;
+}
+.log{
+    font-size: 15px;
+    font-family: 'League Spartan', 
+}
+.right-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.icons {
+    margin-top: 20px;
+}
+
+.icons a {
+    color: #d8d8d8;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.icons a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    text-shadow: #FDC830 0px 0px 90pc;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #5c75e5;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4452b1;
+}
+
+.signup-link a {
+    color: #5c75e5;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
